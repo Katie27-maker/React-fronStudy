@@ -10,5 +10,4 @@
 3. null과 undefinde를 언제 쓰는가?
     API를 받아서 쓸 때 데이터에 값이 있는 것과 값이 없는것이 있는데 null이었을 떄 사용자에게 어떤 화면을 보여주는지 삼합연산자를 사용해서 화면에 보여 준다고 한다.
 
-
-
+`![코드](https://github.com/Katie27-maker/fe-fronStudy/assets/59760987/8c4ac2ba-2678-4aae-9473-1d2d94d9dd10)`
