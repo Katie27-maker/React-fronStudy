@@ -18,6 +18,8 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+![스크린샷 2024-04-13 오후 11 54 12](https://github.com/Katie27-maker/React-fronStudy/assets/59760987/f4526b66-55ee-4910-bc85-feb2d2011857)
+
 import React, { useState } from "react";
 
 const Home = () => {
@@ -36,6 +38,7 @@ const Home = () => {
   return (
     <div>
       <div>{showText}</div>
+
       <input type="text" onChange={함수임} placeholder="입력 ㄱ ㄱ "></input>
       <button onClick={클릭임}>클릭하셈</button>
     </div>
