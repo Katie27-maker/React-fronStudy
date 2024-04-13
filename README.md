@@ -15,3 +15,32 @@
 
 
 <img width="80%" src="https://github.com/Katie27-maker/fe-fronStudy/assets/59760987/8c4ac2ba-2678-4aae-9473-1d2d94d9dd10"/>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+import React, { useState } from "react";
+
+const Home = () => {
+  const [setData, setDataText] = useState("요기");
+
+  const [showText, showDataText] = useState("");
+
+  const 함수임 = (props) => {
+    setDataText(props.target.value);
+  };
+
+  const 클릭임 = () => {
+    showDataText(setData);
+  };
+
+  return (
+    <div>
+      <div>{showText}</div>
+      <input type="text" onChange={함수임} placeholder="입력 ㄱ ㄱ "></input>
+      <button onClick={클릭임}>클릭하셈</button>
+    </div>
+  );
+};
+
+export default Home;
+
